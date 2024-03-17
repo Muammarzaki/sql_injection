@@ -128,6 +128,14 @@ if (isset($_POST['submit'])) {
             text-decoration: none;
         }
 
+        a,
+        a:hover,
+        a:focus,
+        a:active {
+            text-decoration: none;
+            color: inherit;
+        }
+
         .list-user-btn:hover {
             background-color: #0b7dda;
         }
